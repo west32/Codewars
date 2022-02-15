@@ -1,6 +1,6 @@
 # def to_jaden_case(string:str):
 #     input_str = ''
-#     for index,element in enumerate(string.split(" ")):
+#     for element in string.split(" "):
 #         input_str += element.capitalize()
 #         input_str += " "
 #     return input_str[:-1]
