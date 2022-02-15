@@ -9,5 +9,5 @@ class FirstTestClass(unittest.TestCase):
         self.assertEqual(filter_list([1, 'a', 'b', 0, 15]), [1, 0, 15])
         self.assertEqual(filter_list([1, 2, 'aasf', '1', '123', 123]), [1, 2, 123])
 
-if __name__ == '__main__':
-    unittest.main()
+# if __name__ == '__main__':
+#     unittest.main()
