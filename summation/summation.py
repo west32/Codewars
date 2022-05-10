@@ -11,9 +11,9 @@
 #     return number
 
 
-# def summation(num):
-#     return sum(range(1, num + 1))
-#
+def summation(num):
+    return sum(range(1, num + 1))
+
 #
 # def summation(num):
 #     return sum(range(num + 1))

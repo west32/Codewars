@@ -2,7 +2,7 @@ import unittest
 from reversed_string import solution
 
 
-class ReversedStrig(unittest.TestCase):
+class ReversedString(unittest.TestCase):
 
     def test_high_low(self):
         self.assertEqual(solution('world'), 'dlrow')
