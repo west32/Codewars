@@ -7,3 +7,4 @@ class StrayTest(unittest.TestCase):
         self.assertEqual(stray([1, 1, 1, 1, 1, 1, 2]), 2)
         self.assertEqual(stray([2, 3, 2, 2, 2]), 3)
         self.assertEqual(stray([3, 2, 2, 2, 2]), 3)
+
