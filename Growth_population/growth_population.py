@@ -3,7 +3,7 @@ def nb_year(p0, percent, aug, p):
     while p0 < p:
         n += 1
         per = percent * 0.01
-        p0 += (p0 *per) + aug
-
+        p0 += int(p0 *per) + aug
+    print(type(n))
     return n
 
