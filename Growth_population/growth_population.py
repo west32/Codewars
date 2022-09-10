@@ -4,6 +4,6 @@ def nb_year(p0, percent, aug, p):
         n += 1
         per = percent * 0.01
         p0 += int(p0 *per) + aug
-    print(type(n))
+
     return n
 
