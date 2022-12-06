@@ -1,5 +1,6 @@
 def disemvowel(string_):
     vowels = ["a", "e", "i", "o", "u", ]
+
     letter_list = string_.split()
     new_string = []
     for element in letter_list:
